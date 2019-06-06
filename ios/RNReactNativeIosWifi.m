@@ -92,4 +92,9 @@ RCT_REMAP_METHOD(currentSSID,
            };
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+  return NO;
+}
+
 @end
