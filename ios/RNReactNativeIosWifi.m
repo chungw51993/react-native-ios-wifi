@@ -87,9 +87,8 @@ RCT_REMAP_METHOD(currentSSID,
 }
 
 - (NSDictionary*)constantsToExport {
-  // Officially better to use UIApplicationOpenSettingsURLString
   return @{
-           @"settingsURL": @"App-Prefs:root=WIFI"
+           @"settingsURL": UIApplicationOpenSettingsURLString
            };
 }
 
