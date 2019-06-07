@@ -87,8 +87,9 @@ RCT_REMAP_METHOD(currentSSID,
 }
 
 - (NSDictionary*)constantsToExport {
+  // Change settingsURL to UIApplicationOpenSettingsURLString before deploying
   return @{
-           @"settingsURL": UIApplicationOpenSettingsURLString
+           @"settingsURL": @"App-Prefs:root=WIFI"
            };
 }
 
