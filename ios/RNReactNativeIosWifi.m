@@ -2,6 +2,7 @@
 #import "RNReactNativeIosWifi.h"
 #import <NetworkExtension/NetworkExtension.h>
 #import <SystemConfiguration/CaptiveNetwork.h>
+#import <UIKit/UIKit.h>
 
 @implementation RNReactNativeIosWifi
 
