@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/RNReactNativeIosWifi.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/chungw51993/react-native-ios-wifi.git", :tag => "master" }
   s.source_files  = "RNReactNativeIosWifi/**/*.{h,m}"
   s.requires_arc = true
 
